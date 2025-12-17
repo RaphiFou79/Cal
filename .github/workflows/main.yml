@@ -3,16 +3,16 @@ name: Update Calendar
 on:
   schedule:
     - cron: '0 * * * *' # S'exécute toutes les heures
-  workflow_dispatch: # Permet de le lancer manuellement
+  workflow_dispatch: # Permet de le lancer manuellement pour tester
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Autorisation d'écrire sur le dépôt
+      contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,5 +30,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add calendrier.ics
-          git commit -m "Mise à jour automatique du calendrier" || echo "Pas de changements"
+          git commit -m "Mise à jour auto" || echo "Aucun changement"
           git push
