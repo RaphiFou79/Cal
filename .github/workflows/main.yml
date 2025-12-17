@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add calendrier.ics
+          git add ADECall.ics
           git commit -m "Mise à jour auto" || echo "Aucun changement"
           git push
