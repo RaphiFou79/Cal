@@ -1,11 +1,11 @@
 <br />
 <b>Warning</b>:  file(): SSL operation failed with code 1. OpenSSL Error messages:
-error:0A000086:SSL routines::certificate verify failed in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2695</b><br />
+error:0A000086:SSL routines::certificate verify failed in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2696</b><br />
 <br />
-<b>Warning</b>:  file(): Failed to enable crypto in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2695</b><br />
+<b>Warning</b>:  file(): Failed to enable crypto in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2696</b><br />
 <br />
-<b>Warning</b>:  file(https://ade-outils.insa-lyon.fr/ADE-Cal:~rgirard!2025-2026:e7463c202c6a0d6238442e875fda974f50722eeb): Failed to open stream: operation failed in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2695</b><br />
-Exception: The file path or URL 'https://ade-outils.insa-lyon.fr/ADE-Cal:~rgirard!2025-2026:e7463c202c6a0d6238442e875fda974f50722eeb' does not exist. in /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php:2696
+<b>Warning</b>:  file(https://ade-outils.insa-lyon.fr/ADE-Cal:~rgirard!2025-2026:e7463c202c6a0d6238442e875fda974f50722eeb): Failed to open stream: operation failed in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2696</b><br />
+Exception: The file path or URL 'https://ade-outils.insa-lyon.fr/ADE-Cal:~rgirard!2025-2026:e7463c202c6a0d6238442e875fda974f50722eeb' does not exist. in /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php:2697
 Stack trace:
 #0 /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php(603): ICal\ICal->fileOrUrl('https://ade-out...')
 #1 /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php(643): ICal\ICal->initFile('https://ade-out...')
