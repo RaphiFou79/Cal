@@ -1,7 +1,7 @@
 import requests
 
 # Remplacez par votre lien .ics.phps
-url = "https://utils.bde-insa-lyon.fr/cal/get.php?url=https://ade-outils.insa-lyon.fr/ADE-Cal:~rgirard!2025-2026:e7463c202c6a0d6238442e875fda974f50722eeb&mode=1&desc=true&count=true&types=lang,sport,huma,support,p2i,other,*&ctypes=*,td,cm,tp,ev,soutien"
+url = "https://utils.bde-insa-lyon.fr/cal/get.php?url=https://ade-outils.insa-lyon.fr/ADE-Cal:~rgirard!2025-2026:e7463c202c6a0d6238442e875fda974f50722eeb&mode=1&desc=true&count=true&types=general_sport,lang,sport,huma,support,p2i,other,*&ctypes=*,group,td,cm,tp,ev,soutienupport,p2i,other,*&ctypes=*,td,cm,tp,ev,soutien"
 filename = "ADECal.ics"
 
 try:
