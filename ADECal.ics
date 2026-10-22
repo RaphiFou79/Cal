@@ -49,9 +49,7 @@
 <br />
 <b>Deprecated</b>:  Using null as an array offset is deprecated, use an empty string instead in <b>/app/vendor/johngrogg/ics-parser/src/ICal/ICal.php</b> on line <b>2343</b><br />
 <br />
-<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php:2343) in <b>/app/public/cal/get.php</b> on line <b>75</b><br />
-<br />
 <b>Warning</b>:  http_response_code(): Cannot set response code - headers already sent (output started at /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php:2343) in <b>/app/public/cal/get.php</b> on line <b>16</b><br />
 <br />
 <b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /app/vendor/johngrogg/ics-parser/src/ICal/ICal.php:2343) in <b>/app/public/cal/get.php</b> on line <b>17</b><br />
-ADE (ade-outils.insa-lyon.fr) est injoignable, réessaie plus tard.
+Impossible de joindre ADE (ade-outils.insa-lyon.fr), réessaie plus tard.
